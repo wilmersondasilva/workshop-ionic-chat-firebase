@@ -12,7 +12,7 @@ Para executar no android:
 > ionic add platform android
 > ionic run android
 
-Para executar no ios:
+Para executar no iOS - somente em computadores Apple ou VM:
 
 > ionic add platform ios
 > ionic run ios
