@@ -1,0 +1,80 @@
+ion-view {
+  background-image:url(../img/bg.jpg);
+}
+
+.top, .tab-nav.tabs, a, .button-positive {
+  background-color: #075e54 !important;
+  color: #fff !important;
+  border-color: #075e54 !important;
+}
+
+.title {
+  color: white;
+  font-size: 22px !important;
+}
+
+.icon {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message-footer {
+  height: 50px;
+  border-top: 2px solid #075e54;
+}
+
+.message-footer input[type="text"] {
+  width: 100%;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.message-footer button {
+  background-color: red;
+  max-height: 50px;
+  padding-right: 15px;
+  padding-top: 0px;
+  line-height: 0px;
+}
+
+.message-footer button i {
+  font-size: 30px;
+  background-color: #FFF;
+}
+
+#chat .item {
+  border: none;
+  background-color: transparent;
+}
+
+#chat .item-complex .item-content,
+#chat .item-radio .item-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 3px;
+}
+
+
+.icon.ion-sad-outline {
+  color: #666;
+  font-size: 60px;
+}
+
+.item-content {
+  white-space: normal;
+}
+
+p.user-says {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #A2A5A5;
+}
+
+button.button.button-positive.activated {
+  background-color: transparent !important;
+  color: #075e54!important;
+}

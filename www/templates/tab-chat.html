@@ -1,0 +1,22 @@
+<ion-view view-title="Chat">
+  <!-- Conteudo  -->
+  <ion-content delegate-handle='delegate-chat' id="chat">
+    <ion-list>
+      <ion-item ng-repeat="message in messages">
+        <p class="user-says">{{message.user}}</p>
+        {{message.text}}
+        <ion-option-button class="button-royal" ng-click="removeItem(message)">
+            <i class="icon ion-trash-b"></i>
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+  <!--  Footer  -->
+  <ion-footer-bar class="message-footer" ng-click="resize()">
+    <input type="text" ng-model="text" placeholder="Digite aqui..."  ng-enter="send()">
+    <button class="button-clear message-button" ng-click="send()">
+      <i class="ion-paper-airplane"></i>
+    </button>
+  </ion-footer-bar>
+</ion-view>
