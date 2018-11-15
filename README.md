@@ -1,4 +1,5 @@
-# workshop-ionic-chat-firebase
+# Ionic Framework: implementing a app in one day
+
 Project used in the workshop 'Ionic Framework: implementing a app in one day'
 
 To use this, you can clone, do a fork or download the repo zipped.
