@@ -1,19 +1,19 @@
 # workshop-ionic-chat-firebase
-Projeto usado no Workshop 'Ionic Framework: criando um app em um dia'. Fork do projeto do [Vitor Alencar](https://github.com/vitormalencar/ionic-chat)
+Project used in the workshop 'Ionic Framework: implementing a app in one day'
 
-Para usar, clone, forke ou faça o download do zip.
+To use this, you can clone, do a fork or download the repo zipped.
 
-Para executar no browser:
+To run this on the browser:
 
 > ionic serve
 
-Para executar no android:
+To run in a Android device:
 
 > ionic add platform android
 
 > ionic run android
 
-Para executar no iOS - somente em computadores Apple ou VM:
+To run in a iOS device - Apple computers only or VM's:
 
 > ionic add platform ios
 
